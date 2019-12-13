@@ -26,3 +26,65 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.smurf-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+  background-color: aliceblue;
+  border-style: ridge;
+  border-radius: 5px;
+  border-color: aqua;
+}
+
+.smurf {
+  margin: 10px;
+  padding: 50px;
+  background-color: lightblue;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: aqua;
+  width: 175px;
+}
+
+.smurf-form {
+  margin: 50px;
+}
+
+.form-font {
+  font-size: 4rem;
+  color: tomato;
+}
+
+.name {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: ivory;
+  font-size: 1.5rem;
+}
+
+.age {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: ivory;
+  font-size: 1.5rem;
+}
+
+.height {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: ivory;
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  background-color: pink;
+}
